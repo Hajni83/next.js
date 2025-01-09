@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Greet from "./components/greet";
+import Counter from "./components/counter";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
             </code>
             .
           </li>
+          <Greet />
+          <Counter />
           <li>Save and see your changes instantly.</li>
         </ol>
 
